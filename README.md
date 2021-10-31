@@ -1,1 +1,5 @@
-# print-the-extantion.py
+#Sample filename : abc.py
+#Output :' Python'
+filename = input("Enter file name :")
+exten = filename.split(".")
+print("The extension of file : ",exten[-1])
